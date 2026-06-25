@@ -3,6 +3,22 @@
     <channel>
         <title>Atlas</title>
         <item>
+            <title>0.2.2</title>
+            <pubDate>Thu, 25 Jun 2026 10:01:46 -0500</pubDate>
+            <sparkle:version>84</sparkle:version>
+            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>body{font:13px/1.5 -apple-system,system-ui,sans-serif;margin:0;color:#1d1d1f}h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#86868b;margin:14px 0 6px}ul{margin:0;padding-left:18px}li{margin:4px 0}code{font-family:ui-monospace,monospace;font-size:12px;background:#f2f2f7;padding:1px 4px;border-radius:4px}</style>
+<p>Maintenance and fixes.</p>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas-0.2.2.dmg" length="6680842" type="application/octet-stream" sparkle:edSignature="vL2jowiGjEAYLNEiXcn+Us4sLkOwLXzFDm6QxB4651NdS9UpZ7aHcHrdFSpZnusTUmZsN0CwF/kE6wnbN91BDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas84-81.delta" sparkle:deltaFrom="81" length="1366086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qyFxni2M27oftA5/IWN2iCENYgpWDg+zGgrcbNswCWy8vzx2K6JpzwJlUpxpdhFiQwBY8yc5RvaghaFROALmDQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas84-73.delta" sparkle:deltaFrom="73" length="1318958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1kakQz0t0l1ZthTtjObcrZVTAoKyAEhXmqWxXDM451eSyy1184DyGg1Lxqi0VeGw9b+r1ZImYI9Q1K/Mw1RaDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.2.1</title>
             <pubDate>Thu, 25 Jun 2026 09:38:48 -0500</pubDate>
             <sparkle:version>81</sparkle:version>
