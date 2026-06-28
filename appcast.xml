@@ -3,6 +3,44 @@
     <channel>
         <title>Atlas</title>
         <item>
+            <title>0.2.4</title>
+            <pubDate>Sat, 27 Jun 2026 23:01:03 -0500</pubDate>
+            <sparkle:version>105</sparkle:version>
+            <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>body{font:13px/1.5 -apple-system,system-ui,sans-serif;margin:0;color:#1d1d1f}h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#86868b;margin:14px 0 6px}ul{margin:0;padding-left:18px}li{margin:4px 0}code{font-family:ui-monospace,monospace;font-size:12px;background:#f2f2f7;padding:1px 4px;border-radius:4px}</style>
+<h3>Added</h3>
+<ul>
+  <li><strong>A redesigned iPhone editor.</strong> Editing a note on iPhone now feels like a focused writing surface, in the spirit of Apple's Journal app: refined, slightly smaller typography with tighter line spacing, a thin divider under the note's title, and a clean floating top bar while you write (undo, formatting, done). Tap <strong>Aa</strong> and a Format panel slides up in place of the keyboard — bold, italic, strikethrough, highlight, inline code, headings, quotes, lists, indenting, and links, all in one place.</li>
+  <li><strong>Quick actions while writing on iPhone.</strong> A floating bar at the bottom gives one-tap access to <strong>discovered connections</strong>, <strong>inserting an image</strong> from your photo library, and <strong>linking to another note</strong>.</li>
+  <li><strong>Discovered connections on iPhone.</strong> Tap the spark button while writing to see the notes Atlas thinks are related, read why each one connects, and link it — the same intelligence the Mac and iPad show in the side panel.</li>
+  <li><strong>Version history for every note.</strong> Atlas now keeps a private, on-device timeline of your notes as you write. Open <strong>Version History</strong> from the note menu to browse earlier versions, see exactly what changed against the previous one, and restore any of them with a tap — restoring just writes that text back as a new edit, so nothing is lost. History lives only on this device and is never uploaded; old versions are pruned automatically over time, and you can clear a single note's history or all of it from Settings.</li>
+  <li><strong>Pull-over sidebar on iPhone.</strong> Swipe in from the left edge — or tap the menu button — to reveal the sidebar (Daily, All Notes, Regions, Pinned, Recent). The page slides aside to uncover it with a soft, rounded-card look, and the menu items fade and settle into place as it opens.</li>
+  <li><strong>Sync across your devices.</strong> First-run setup now lets you choose where your notes live: keep them on this device, or put your vault in iCloud Drive to use the same notes on your Mac, iPad, and iPhone. On Mac, Atlas finds your iCloud Drive automatically; on iPad and iPhone you pick (or create) the folder.</li>
+  <li><strong>What's New, in the app.</strong> The app menu's "What's New" now opens a built-in changelog so you can see what each update brought without leaving Atlas.</li>
+  <li><strong>Help, in the app.</strong> "Help" opens a quick reference — keyboard shortcuts and a short guide to writing, linking, search, and the AI features — all offline.</li>
+  <li><strong>Terms &amp; Privacy, in the app.</strong> A clear, in-app write-up of how Atlas handles your notes: what works offline, and exactly what's sent to Voyage AI and OpenAI (and when) once you add your own keys. Atlas flags it when it changes.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+  <li><strong>More reliable undo &amp; redo.</strong> Undo (⌘Z) and redo (⌘⇧Z) now step through your edits predictably and put the cursor back where it was when you made the change, so picking up after an undo feels natural.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+  <li><strong>The cursor lands where you expect after Return.</strong> Pressing Return at the end of a line no longer leaves the cursor drawn on the wrong line until you start typing — fixed on Mac, iPad, and iPhone.</li>
+  <li><strong>Inserted images fit the page.</strong> Images you add now scale to the width of the note instead of overflowing at their full size.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas-0.2.4.dmg" length="6957233" type="application/octet-stream" sparkle:edSignature="TiTboQ+nfVs6EAQdqf6Dr3c9bpx0zzhdR2pq+0hKu/4FIJU/r+mKsuPe6QcWIcOeQ7Kj8RlMMu0NquDs62hjCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas105-87.delta" sparkle:deltaFrom="87" length="679686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="APnZaPSv10XzYdb9RcaGLYtvwmklQwqVXfTKWomC2LCxtZSpElfxrWZwVpP4cRn3KvpComMJkpuRiUF+SrbDCw=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas105-84.delta" sparkle:deltaFrom="84" length="678346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bv3L2SOW+vJV8POf0sHV0+QYc7a50Kwku2+bg9dJkm8Ae/nZIg8vtVFnGMdpDkRAU3CEJzK5xznV/AbJ2LHFAA=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas105-81.delta" sparkle:deltaFrom="81" length="1989186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9TzodalWKZa7YeH8I3HlG8f3RgDE4I4NH9jtgsWUknPlyk0SxOacyqAZULQiyf9CtBKuBrwJ+a6eaTGKGSqBCQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas105-73.delta" sparkle:deltaFrom="73" length="1984210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XJ9xZyFlKhzDxTssSt6OcKoCvl+yDWhqo19z2Ml16yDs7sN8LH5j70g0t8DrG2JxkcjiogGMQnvwCJubDoahBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.2.3</title>
             <pubDate>Thu, 25 Jun 2026 10:38:29 -0500</pubDate>
             <sparkle:version>87</sparkle:version>
@@ -36,43 +74,6 @@
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas84-81.delta" sparkle:deltaFrom="81" length="1366086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qyFxni2M27oftA5/IWN2iCENYgpWDg+zGgrcbNswCWy8vzx2K6JpzwJlUpxpdhFiQwBY8yc5RvaghaFROALmDQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas84-73.delta" sparkle:deltaFrom="73" length="1318958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1kakQz0t0l1ZthTtjObcrZVTAoKyAEhXmqWxXDM451eSyy1184DyGg1Lxqi0VeGw9b+r1ZImYI9Q1K/Mw1RaDA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2.1</title>
-            <pubDate>Thu, 25 Jun 2026 09:38:48 -0500</pubDate>
-            <sparkle:version>81</sparkle:version>
-            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>body{font:13px/1.5 -apple-system,system-ui,sans-serif;margin:0;color:#1d1d1f}h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#86868b;margin:14px 0 6px}ul{margin:0;padding-left:18px}li{margin:4px 0}code{font-family:ui-monospace,monospace;font-size:12px;background:#f2f2f7;padding:1px 4px;border-radius:4px}</style>
-<h3>Added</h3>
-<ul>
-  <li><strong>Tables.</strong> Write standard Markdown tables and Atlas renders them with aligned columns, a header rule, and column dividers. Tables stretch to fill the writing width, and on narrow screens they scale down to stay readable instead of clipping. Put the cursor inside a table to edit the raw Markdown; it snaps back to the formatted view when you move out.</li>
-  <li><strong>Callouts.</strong> Start a quote line with <code>&gt; [!note]</code>, <code>[!tip]</code>, <code>[!warning]</code>, <code>[!danger]</code>, or <code>[!question]</code> for a colored, titled callout block.</li>
-  <li><strong>Footnotes.</strong> Reference notes with <code>[^1]</code> and define them with <code>[^1]: …</code>; the reference renders as a superscript link.</li>
-  <li><strong>Share to Atlas (iPad):</strong> Share links, articles, or images to Atlas from any app. Each capture becomes a new note and a timestamped link appears under a <strong>Saved</strong> heading in today's daily note. A quick confirmation shows it landed; the note is yours to review and rename later. Captures are tagged <code>#inbox</code> by default — change the tag in Settings → Shared Items (or clear it for none).</li>
-  <li><strong>macOS:</strong> The sidebar now has back/forward navigation and a new-note button in its header, matching the iPad. They live in the sidebar (not the editor) so a distraction-free writing view with all panels closed stays chrome-free.</li>
-</ul>
-<h3>Changed</h3>
-<ul>
-  <li><strong>Recents</strong> now lists notes you've <em>visited</em>, not just ones you've edited — opening a note moves it to the top, matching the convention in Craft and Bear.</li>
-  <li><strong>iPad (narrow window):</strong> The sidebar toggle is now a clear sidebar icon instead of a chevron, so it's no longer confused with the back/forward navigation buttons.</li>
-  <li><strong>Calmer, smarter related-note suggestions.</strong> Atlas now waits until you pause or move on from a note before working out its "related notes" in the background, instead of starting a second after you stop typing — so it stays out of the way while you're thinking. It focuses that work on the notes you actually open, and a brand-new note surfaces its first connections after a short pause, with no need to leave and come back.</li>
-  <li>Bolding, italicizing, or highlighting a word — or tidying up whitespace — no longer makes Atlas re-analyze the note.</li>
-</ul>
-<h3>Fixed</h3>
-<ul>
-  <li><strong>iPad:</strong> The info panel now closes automatically when you open a different note, instead of lingering over the new note's content.</li>
-  <li><strong>iPad:</strong> The tag autocomplete list no longer pops open on its own when you open a note whose last line ends in a #tag (it now appears only while typing).</li>
-  <li><strong>Scroll position stays put when toggling panels.</strong> On longer notes, opening or closing the sidebar or info panel no longer jumps you away from where you were reading.</li>
-  <li><strong>Typing works immediately in an empty note.</strong> Opening an empty note no longer swallows the first line — you can type right away instead of pressing Return first.</li>
-  <li><strong>Unformatting in one tap.</strong> Selecting bold, italic, or highlighted text and tapping the formatting button now removes the formatting, instead of sometimes applying it a second time.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas-0.2.1.dmg" length="5080069" type="application/octet-stream" sparkle:edSignature="0CYd6yPw+Xu0yUHJauCyO2wJTBQfHj7fu1A8Ec1jx6gDNdYpo3+xTuKAxGW1vfeCvI8guo/lMxclB/UjU1/FBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas81-73.delta" sparkle:deltaFrom="73" length="58218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Cb5qRJZL85NIlBBCOYSisP9sOZWrCPwQxG4/rl+IJt044cKKh4hV2tZep1KpBu5O7mUTll+wQqQEnsjTAZ/rDA=="/>
             </sparkle:deltas>
         </item>
     </channel>
