@@ -3,6 +3,49 @@
     <channel>
         <title>Atlas</title>
         <item>
+            <title>0.3.0</title>
+            <pubDate>Sun, 12 Jul 2026 09:49:59 -0500</pubDate>
+            <sparkle:version>193</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>body{font:13px/1.5 -apple-system,system-ui,sans-serif;margin:0;color:#1d1d1f}h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#86868b;margin:14px 0 6px}ul{margin:0;padding-left:18px}li{margin:4px 0}code{font-family:ui-monospace,monospace;font-size:12px;background:#f2f2f7;padding:1px 4px;border-radius:4px}</style>
+<h3>Added</h3>
+<ul>
+  <li><strong>Spell check.</strong> Misspelled words are underlined in the editor with corrections on tap/right-click. On by default — turn it off in <strong>Settings → General → Editing</strong>.</li>
+  <li><strong>The <code>/</code> quick-insert menu now works on iPad</strong>, matching Mac: type <code>/</code> at the start of a line for headings, lists, quotes, and links — tap a row (or arrow down and Return with a hardware keyboard) to insert it. Sized compact for iPad's smaller screen.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+  <li><strong>Atlas is now Fern.</strong> New name, same app — too many markdown apps were called Atlas. Nothing about your notes changes: your vault, folders, Regions, and Trails are exactly where they were. Fern installs as a new app, so point it at your existing vault and re-enter your API keys — the index rebuilds on its own.</li>
+  <li><strong>Return on an indented list item now outdents one level and keeps the list style</strong>, instead of leaving the list entirely. Press Return again once you're back at the base level to drop out of the list.</li>
+  <li><strong>More room around checklist and bullet markers</strong> — the gap between a checkbox or bullet and its text, and the space between list items, both grew for legibility.</li>
+  <li><strong>Trails from ⌘K are no longer capped near 4-5 stops.</strong> A topic you've written about extensively can now trace a much longer path; a narrow one still gets a short, focused list.</li>
+  <li>iPad: tapping a command palette row now selects it first and activates on a second tap — the same Raycast-style model Mac already used — instead of acting on the first tap.</li>
+  <li>iPad: the palette's answer, tensions, loops, and trail cards now cap their height to the room actually available in the window instead of a fixed size, so they can't run off the bottom edge on a smaller iPad.</li>
+  <li>iPad: the View menu no longer lists "Show/Hide Sidebar" twice.</li>
+  <li><strong>The iPad context panel is now a dedicated ⓘ button in the toolbar</strong>, opening Mac's relationships-first layout (tags, outline, links, backlinks, then Nearby Notes) in a popover sized to its content, rather than a card floating over the note. The note's ••• menu no longer lists a redundant "Note Information" entry there — iPhone (which has no ⓘ button) still has it, and it now toggles the info sheet open and closed instead of only opening it.</li>
+  <li><strong>The panel's word/character/reading-time detail (tap the footer line) now opens as a plain attached flyout</strong> — square corners, no speech- bubble arrow — instead of a system popover, so it doesn't nest awkwardly inside iPad's own info popover.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+  <li>iPad: tapping the Done checkmark while editing now also closes the Note Information panel.</li>
+  <li>iPad: the toolbar's Liquid Glass pill no longer reserves an empty gap next to the note's ••• menu — the (invisible) Done checkmark button was still occupying a slot in the shared glass background even at 0 opacity.</li>
+  <li>iPad: the Done checkmark no longer stays stuck on-screen after navigating to All Notes while a note was being edited — leaving a note now ends its edit session.</li>
+  <li>iPad: the Done checkmark now fades away in place instead of animating off-screen when it disappears.</li>
+  <li>iPad: typing <code>#</code> in the command palette with a hardware keyboard attached could jump to a recent note and close the palette instead of opening tag search (a Shift-key mismatch in the 1–5 recent-note shortcut).</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/braydoncoyer/fern-releases/main/Fern-0.3.0.dmg" length="7674166" type="application/octet-stream" sparkle:edSignature="s/iWx4MI/Vz27PWUY1XaoJCBuMiaW+z/lslnIU0DHepnfGF1L1VRH6EoSq3YJAYQ145dBGckszDahSkX27cUCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/fern-releases/main/Fern193-178.delta" sparkle:deltaFrom="178" length="2156898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d8nqtG9Y3aSN37dwa7aR63WswFiJ8WOmaL2WF9ftZjnNeNCMBDNgSoqnrJIAh5VFyaEShLfU+K3NhVCgrNVvBg=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/fern-releases/main/Fern193-166.delta" sparkle:deltaFrom="166" length="2153002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eye+xSSVBcsGkZa6kw2SfSsAfHjcLY0ZFXhI6dH3Jcqm4d2DFUcwOggiIEqol+Vqzwev9pkLrG7OtPxvhNsoDg=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/fern-releases/main/Fern193-118.delta" sparkle:deltaFrom="118" length="3165170" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="W9APPDA+xIhXx4cU/3RzFrukMKPzX5EKr7O0XJ8OwEaCzA1FoH7GQ0g5EywoXfuo1GWVuzsQadu7T0WsePCXAQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/fern-releases/main/Fern193-105.delta" sparkle:deltaFrom="105" length="3163622" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J661YwVPnQssZtHNz+kRB+a835lPd1gRnd9ztq6tLrC5ZZ6CYoC//Y2tX0ozcQiwRzu9dgwJk+jb3XNBqv/YCw=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/fern-releases/main/Fern193-87.delta" sparkle:deltaFrom="87" length="3161738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lB6lXMVRuhiDE6zWRrLlits1Tnc1y7lyghWkQQyQTFGRdPYrhC2EETyE7gCEyHmkQGeTcRyu53qgg8zy4S+dDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.2.7</title>
             <pubDate>Wed, 08 Jul 2026 19:20:40 -0500</pubDate>
             <sparkle:version>178</sparkle:version>
@@ -38,7 +81,7 @@
   <li>The brief blank screen some launches showed before the loading bar now says "Opening your notes…" so the app never looks stalled.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas-0.2.7.dmg" length="7108266" type="application/octet-stream" sparkle:edSignature="nL35pEGUC7vxxo0D7e4dDhaI+UkFfxnjHIZIA6/ayTac2gcm7VC4ZTvS86y/Uk+jU4tZm4IxwVdjZLHV9f3qBA=="/>
+            <enclosure url="https://raw.githubusercontent.com/braydoncoyer/fern-releases/main/Atlas-0.2.7.dmg" length="7108266" type="application/octet-stream" sparkle:edSignature="nL35pEGUC7vxxo0D7e4dDhaI+UkFfxnjHIZIA6/ayTac2gcm7VC4ZTvS86y/Uk+jU4tZm4IxwVdjZLHV9f3qBA=="/>
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas178-166.delta" sparkle:deltaFrom="166" length="858518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GPpLX6a780viHG0xxffqSNs+SQUjiLoyCnCgC3KfGQ/mGdrUTWgfctqgbgPXF0fr28iASkBBfmufEj12TFKoAA=="/>
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas178-118.delta" sparkle:deltaFrom="118" length="3209730" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="43+5JO1GG45W0hfTb1HJ9uJvH+QS0JxFAVBwvbZufl1oXlZoRhDZyL8Do8FYbZ2EyVnDU8rSjMtz3QMairpsDQ=="/>
@@ -88,41 +131,13 @@
   <li><strong>Pasting a link over selected text undoes in one step (Mac).</strong> Wrapping a selection as a markdown link by pasting a URL is now a single named undo action, matching iPad and iPhone.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas-0.2.6.dmg" length="7010227" type="application/octet-stream" sparkle:edSignature="6pFTtsJGO7geFYCTGwrc+byFMKqfSgPnF85Kmz5U/gkbu0hD8sr4IhlRztggxhvASRKyigE5Xq77pG+lcn4DDA=="/>
+            <enclosure url="https://raw.githubusercontent.com/braydoncoyer/fern-releases/main/Atlas-0.2.6.dmg" length="7010227" type="application/octet-stream" sparkle:edSignature="6pFTtsJGO7geFYCTGwrc+byFMKqfSgPnF85Kmz5U/gkbu0hD8sr4IhlRztggxhvASRKyigE5Xq77pG+lcn4DDA=="/>
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas166-118.delta" sparkle:deltaFrom="118" length="2878062" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0U9FJ8CL/KQ5S68SfDq0Kew7KKp9gJRmeKL0X0Tv8iJAomCjZkAgVFWesrP6C+MSOKtW7lPRZ3aUDPOpR6ZMCg=="/>
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas166-105.delta" sparkle:deltaFrom="105" length="2913994" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XefumNlbnl6dq9VdXTzaMUoNdUu8dVR74+NzBlQaPZXCToSjf9W+img/Ln67q/pObBtx0TrbZLMv+50dMparBw=="/>
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas166-87.delta" sparkle:deltaFrom="87" length="3106726" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+9xrsEyhFbhqzIrucvQcd0hqmmUBW1Tx+E33tJ2gCO/N7hTLsgHijwwDLNbKbNZBDJquv1QBtQSWbEJeWu2iDw=="/>
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas166-84.delta" sparkle:deltaFrom="84" length="3108986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6IHr2glGciio6wKryv81jmYqpEodVjmuisHJwOht856bhqgnlWphI2QbrLHVyjrpl8WhfgdvXNUwsR2Uzb0HAQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas166-81.delta" sparkle:deltaFrom="81" length="3496014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3jNEBiw9/wgITQAlv1PEIeWKefCodpABxvrKt0YTwONn6OrhYRYD3E1YSt8dGG725kwo7WI+4E2Sj3lSIvKrAg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2.5</title>
-            <pubDate>Tue, 30 Jun 2026 08:47:31 -0500</pubDate>
-            <sparkle:version>118</sparkle:version>
-            <sparkle:shortVersionString>0.2.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>body{font:13px/1.5 -apple-system,system-ui,sans-serif;margin:0;color:#1d1d1f}h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#86868b;margin:14px 0 6px}ul{margin:0;padding-left:18px}li{margin:4px 0}code{font-family:ui-monospace,monospace;font-size:12px;background:#f2f2f7;padding:1px 4px;border-radius:4px}</style>
-<h3>Changed</h3>
-<ul>
-  <li><strong>The title docks into the top bar as you scroll (iPhone &amp; iPad).</strong> While reading a note or browsing All Notes, the large title now slides up and settles into the navigation bar as you scroll down — so you always know where you are — and expands again when you scroll back to the top, matching the native iOS feel.</li>
-  <li><strong>Settings moved to the top bar on iPhone.</strong> In All Notes, the Settings gear now lives in the navigation bar alongside the menu button, instead of next to the page heading.</li>
-</ul>
-<h3>Fixed</h3>
-<ul>
-  <li><strong>The formatting bar no longer flickers when you format text (Mac).</strong> Applying bold, italic, highlight, or other inline formatting kept the bar steady instead of having it blink out and snap back into place.</li>
-  <li><strong>The formatting bar stays in view for long selections (Mac).</strong> Selecting a large block of text now anchors the bar at the top of the selection in view, rather than dropping it to the bottom-left of the editor.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas-0.2.5.dmg" length="6953953" type="application/octet-stream" sparkle:edSignature="qYCpUQTnAUqgV6MKhUTKRk21T0nITi6Z6WDLMvHMcN2lTW2I/mR66kiTjS/xFn6XmwEBWc1OuKRej6XRwWSAAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas118-105.delta" sparkle:deltaFrom="105" length="366774" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ouTAYp3pWNOS8jeavmxE3AUbgxboz4ZrnYU3awt8MJjugdrI48e74Di+AFf8OfWhrp+9ynI4SXx6fPFp8J8UDQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas118-87.delta" sparkle:deltaFrom="87" length="735206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="D9wOx5peJ7Rg1cjQezcdkJgSuUvdTxMkaR3uiQtqft9Fgzaa54ZWHsg3IXtp3/GC8nlFSyqDqVBbYcQD4905BQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas118-84.delta" sparkle:deltaFrom="84" length="737914" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GIFymVAfIofhLFxFlvJhDmrcEukZ2VuoSeH4NqW3FsviqN/GyTSKIDA2Pmu4cTas6RzLewPK9cWDKm9ri8MTCw=="/>
-                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas118-81.delta" sparkle:deltaFrom="81" length="2046030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/duc5fkFnM1j6+ljH1b5fBHSVjGCzSQnY5XBKuZQJYHDZIsrClQ0+cwkbhph7+quAR4lanwaNr61FOjQtYwKDQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas118-73.delta" sparkle:deltaFrom="73" length="2044726" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Vz28jsO6KjwcoYmdOH2kaOSiQcxXu9IcYdalW8iUL35NUBAoEFEx1Qh6NDqHruZnbMoR9JXcLbNZiAmaDnnFDA=="/>
             </sparkle:deltas>
         </item>
     </channel>

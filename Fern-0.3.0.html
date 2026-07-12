@@ -1,0 +1,26 @@
+<style>body{font:13px/1.5 -apple-system,system-ui,sans-serif;margin:0;color:#1d1d1f}h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#86868b;margin:14px 0 6px}ul{margin:0;padding-left:18px}li{margin:4px 0}code{font-family:ui-monospace,monospace;font-size:12px;background:#f2f2f7;padding:1px 4px;border-radius:4px}</style>
+<h3>Added</h3>
+<ul>
+  <li><strong>Spell check.</strong> Misspelled words are underlined in the editor with corrections on tap/right-click. On by default — turn it off in <strong>Settings → General → Editing</strong>.</li>
+  <li><strong>The <code>/</code> quick-insert menu now works on iPad</strong>, matching Mac: type <code>/</code> at the start of a line for headings, lists, quotes, and links — tap a row (or arrow down and Return with a hardware keyboard) to insert it. Sized compact for iPad's smaller screen.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+  <li><strong>Atlas is now Fern.</strong> New name, same app — too many markdown apps were called Atlas. Nothing about your notes changes: your vault, folders, Regions, and Trails are exactly where they were. Fern installs as a new app, so point it at your existing vault and re-enter your API keys — the index rebuilds on its own.</li>
+  <li><strong>Return on an indented list item now outdents one level and keeps the list style</strong>, instead of leaving the list entirely. Press Return again once you're back at the base level to drop out of the list.</li>
+  <li><strong>More room around checklist and bullet markers</strong> — the gap between a checkbox or bullet and its text, and the space between list items, both grew for legibility.</li>
+  <li><strong>Trails from ⌘K are no longer capped near 4-5 stops.</strong> A topic you've written about extensively can now trace a much longer path; a narrow one still gets a short, focused list.</li>
+  <li>iPad: tapping a command palette row now selects it first and activates on a second tap — the same Raycast-style model Mac already used — instead of acting on the first tap.</li>
+  <li>iPad: the palette's answer, tensions, loops, and trail cards now cap their height to the room actually available in the window instead of a fixed size, so they can't run off the bottom edge on a smaller iPad.</li>
+  <li>iPad: the View menu no longer lists "Show/Hide Sidebar" twice.</li>
+  <li><strong>The iPad context panel is now a dedicated ⓘ button in the toolbar</strong>, opening Mac's relationships-first layout (tags, outline, links, backlinks, then Nearby Notes) in a popover sized to its content, rather than a card floating over the note. The note's ••• menu no longer lists a redundant "Note Information" entry there — iPhone (which has no ⓘ button) still has it, and it now toggles the info sheet open and closed instead of only opening it.</li>
+  <li><strong>The panel's word/character/reading-time detail (tap the footer line) now opens as a plain attached flyout</strong> — square corners, no speech- bubble arrow — instead of a system popover, so it doesn't nest awkwardly inside iPad's own info popover.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+  <li>iPad: tapping the Done checkmark while editing now also closes the Note Information panel.</li>
+  <li>iPad: the toolbar's Liquid Glass pill no longer reserves an empty gap next to the note's ••• menu — the (invisible) Done checkmark button was still occupying a slot in the shared glass background even at 0 opacity.</li>
+  <li>iPad: the Done checkmark no longer stays stuck on-screen after navigating to All Notes while a note was being edited — leaving a note now ends its edit session.</li>
+  <li>iPad: the Done checkmark now fades away in place instead of animating off-screen when it disappears.</li>
+  <li>iPad: typing <code>#</code> in the command palette with a hardware keyboard attached could jump to a recent note and close the palette instead of opening tag search (a Shift-key mismatch in the 1–5 recent-note shortcut).</li>
+</ul>
