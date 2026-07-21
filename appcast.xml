@@ -3,6 +3,41 @@
     <channel>
         <title>Atlas</title>
         <item>
+            <title>0.4.1</title>
+            <pubDate>Tue, 21 Jul 2026 11:59:58 -0500</pubDate>
+            <sparkle:version>247</sparkle:version>
+            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>body{font:13px/1.5 -apple-system,system-ui,sans-serif;margin:0;color:#1d1d1f}h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#86868b;margin:14px 0 6px}ul{margin:0;padding-left:18px}li{margin:4px 0}code{font-family:ui-monospace,monospace;font-size:12px;background:#f2f2f7;padding:1px 4px;border-radius:4px}</style>
+<h3>Added</h3>
+<ul>
+  <li><strong>Rename a tag everywhere.</strong> Right-click any tag in the context panel and choose <strong>Rename Tag…</strong> to change it across your whole vault at once — every <code>#tag</code> in your notes and their frontmatter. Lore previews exactly how many notes will change before you commit, warns when the new name already exists (a merge), and keeps a Region's membership intact if its tag is the one you rename. Undo the whole cascade from the confirmation banner. Works on Mac, iPad, and iPhone.</li>
+  <li><strong>A serif reading voice.</strong> Notes, titles, and the app's chrome are now set in New York — the system serif — for a warmer, more book-like page. Prefer the old look? <strong>Settings → Appearance → Font</strong> switches between Serif, Sans-Serif (Geist), and Mono (Geist Mono).</li>
+  <li><strong>Insert an image or file from the <code>/</code> menu.</strong> Type <code>/</code> in a note and choose <strong>Image or File</strong> to pick files from disk — they're copied into your vault's Attachments folder and embedded right where your cursor was. Works on Mac and iPad.</li>
+  <li><strong>Labs.</strong> A new Settings pane for early experiments, each switchable per-device and off by default.</li>
+  <li><strong>Retelling</strong> (Labs, Mac). Now and then, Lore notices a thread of linked notes that has gone quiet and offers to walk you back through it — a short, focused re-read, one note at a time, ending with a single question whose answer becomes a new note linked into the thread. The invitation appears in the sidebar and in ⌘K only when a thread is ripe. Turn it on in <strong>Settings → Labs</strong>.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+  <li>The writing surface is a touch warmer in light mode, and the editor column is slightly wider.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+  <li><strong>Formatting a multi-paragraph selection now works.</strong> Bold, italic, highlight, strikethrough, and code applied across several paragraphs or list items now format each line correctly — matching how other editors handle it — instead of leaving stray markers, and a single undo reverts the whole thing. List bullets, checkboxes, and other line markers are left untouched.</li>
+  <li><strong>Renaming a Region keeps its notes.</strong> Retitling a Region — by editing its heading, or renaming its file in Finder or iCloud — no longer quietly detaches the notes filed under it. A Region now remembers the tag it collects, so its members (and any you add later) stay put.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/braydoncoyer/lore-releases/main/Lore-0.4.1.dmg" length="8049179" type="application/octet-stream" sparkle:edSignature="Wvh0FNEM0//78mcNZvjOygjUKQhlNN9r9lYIuWraPvwFekDSlWSVSNkk7T4U+jZARJo6EmifKTr70Wiz2CPLAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/lore-releases/main/Lore247-225.delta" sparkle:deltaFrom="225" length="803990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qy4IPNdJcG+i1E7I1ce2fkudaJtBVsuM2ICqspSsccjSCAGCJ/ryXj2rtWwZTdSDUIJzs28t3hP1jLnrRDtGDw=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/lore-releases/main/Lore247-193.delta" sparkle:deltaFrom="193" length="1817934" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dTqbI9pciGOmlQqnutsBumEOXTf7/Nh+80xt0QUIdPkSE3ik17rjyFh+1x0uKy/EdY4iYbvTCxv0PzF3QUU/Aw=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/lore-releases/main/Lore247-178.delta" sparkle:deltaFrom="178" length="2216614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="anE0g603oCBx9er5ThyEh/LOjJRDhJVrMAN2A4tXTlaehavDkq304N+EvVhrgp2m+5oWKRIg2UuVDCtk8xWACw=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/lore-releases/main/Lore247-166.delta" sparkle:deltaFrom="166" length="2218978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZeMQ+T+9CXxPJrLm82m+0phsy5jU2HiAPF8MZbwn16kIMDgT2Ui0j+9zwpVjneozw4Xmqo8pXlKK8Gmc80DPBA=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/lore-releases/main/Lore247-118.delta" sparkle:deltaFrom="118" length="3225914" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ik6e0dFPjqpggyHIa29C38gubF+gVrFep5Kw9qTOJQTnB1jPGxMItTCZO78fB/59sqmow2PpfdDx7bIXcRvDCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Fri, 17 Jul 2026 12:09:52 -0500</pubDate>
             <sparkle:version>225</sparkle:version>
@@ -65,51 +100,6 @@
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/fern-releases/main/Fern193-118.delta" sparkle:deltaFrom="118" length="3165170" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="W9APPDA+xIhXx4cU/3RzFrukMKPzX5EKr7O0XJ8OwEaCzA1FoH7GQ0g5EywoXfuo1GWVuzsQadu7T0WsePCXAQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/fern-releases/main/Fern193-105.delta" sparkle:deltaFrom="105" length="3163622" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J661YwVPnQssZtHNz+kRB+a835lPd1gRnd9ztq6tLrC5ZZ6CYoC//Y2tX0ozcQiwRzu9dgwJk+jb3XNBqv/YCw=="/>
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/fern-releases/main/Fern193-87.delta" sparkle:deltaFrom="87" length="3161738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lB6lXMVRuhiDE6zWRrLlits1Tnc1y7lyghWkQQyQTFGRdPYrhC2EETyE7gCEyHmkQGeTcRyu53qgg8zy4S+dDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2.7</title>
-            <pubDate>Wed, 08 Jul 2026 19:20:40 -0500</pubDate>
-            <sparkle:version>178</sparkle:version>
-            <sparkle:shortVersionString>0.2.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>body{font:13px/1.5 -apple-system,system-ui,sans-serif;margin:0;color:#1d1d1f}h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#86868b;margin:14px 0 6px}ul{margin:0;padding-left:18px}li{margin:4px 0}code{font-family:ui-monospace,monospace;font-size:12px;background:#f2f2f7;padding:1px 4px;border-radius:4px}</style>
-<h3>Added</h3>
-<ul>
-  <li><strong>Exclude any note from AI.</strong> Turn on <strong>Exclude from AI</strong> and that note's content never leaves your device again — no embedding, no Ask answers, no discovered connections. Search, links, and tags keep working as before.</li>
-  <li>Available from a note's ••• menu, its context menu in the sidebar or All Notes, or the context panel.</li>
-  <li>The first time you use it, Atlas explains what stops — and that content already sent can't be recalled.</li>
-  <li>Flip it back on anytime to resume indexing.</li>
-  <li><strong>Pull-to-search and a floating New Note button on iPad</strong>, matching iPhone. Pull down from the top of a note or All Notes to open ⌘K, and tap the new floating pencil button to start a note.</li>
-  <li>Requires no hardware keyboard attached. A Done checkmark also appears while editing to dismiss the keyboard.</li>
-  <li><strong>"Trace a Path" is now in the Note menu and ⌘K</strong>, not just the context panel — the same reading-path trace, one more way to start it.</li>
-</ul>
-<h3>Changed</h3>
-<ul>
-  <li><strong>The Mac context panel was redesigned.</strong> Relationships come first — tags, Region membership, a live outline that highlights the heading you're reading, then links and backlinks. Discovered Connections now live in one intelligence-tinted section below, with a single footer line for word count and last-edited time.</li>
-  <li><strong>Daily notes show their raw date (e.g. "2026-07-08") by default again.</strong> Readable dates ("July 8, 2026") are still available — turn them on in <strong>Settings → Daily Notes → Readable dates</strong>.</li>
-  <li><strong>Tags now work mid-sentence.</strong> <code>(#health)</code>, <code>"#focus"</code>, and <code><strong>#goal</strong></code> are recognized as tags — previously <code>#tag</code> only counted at the start of a line or right after a space.</li>
-  <li><strong>The app opens instantly.</strong> Atlas now remembers your notes between sessions, so launching — especially on iPhone and iPad — shows your vault immediately instead of a loading bar while every note is re-read from iCloud.</li>
-  <li>Changes made on other devices while the app was closed still arrive within moments of opening.</li>
-  <li>The first launch after this update loads the old way once; every launch after that is instant.</li>
-</ul>
-<h3>Fixed</h3>
-<ul>
-  <li><strong>iCloud daily-note forks now heal automatically.</strong> If two devices created the same day's note before syncing caught up, iCloud used to leave both files behind (e.g. a stray "2026-07-08 2.md"). Atlas now detects the fork and folds it back into the day's real note.</li>
-  <li><strong>Tagging a note now reliably files it into its Region.</strong> Two cases used to leave a tagged note missing from its Region: adding the tag via the context panel's tag chip, and typing a <code>#tag</code> right after retitling a note.</li>
-  <li>Removing a tag could likewise leave a note stuck in a Region — also fixed. Tag a note either way and it now appears in the Region's member list immediately.</li>
-  <li>Expanding a Nearby Notes suggestion now dims the whole window — the sidebar and side panels included — instead of only the note, so the detail card reads clearly as the focus.</li>
-  <li>The brief blank screen some launches showed before the loading bar now says "Opening your notes…" so the app never looks stalled.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/braydoncoyer/lore-releases/main/Atlas-0.2.7.dmg" length="7108266" type="application/octet-stream" sparkle:edSignature="nL35pEGUC7vxxo0D7e4dDhaI+UkFfxnjHIZIA6/ayTac2gcm7VC4ZTvS86y/Uk+jU4tZm4IxwVdjZLHV9f3qBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas178-166.delta" sparkle:deltaFrom="166" length="858518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GPpLX6a780viHG0xxffqSNs+SQUjiLoyCnCgC3KfGQ/mGdrUTWgfctqgbgPXF0fr28iASkBBfmufEj12TFKoAA=="/>
-                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas178-118.delta" sparkle:deltaFrom="118" length="3209730" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="43+5JO1GG45W0hfTb1HJ9uJvH+QS0JxFAVBwvbZufl1oXlZoRhDZyL8Do8FYbZ2EyVnDU8rSjMtz3QMairpsDQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas178-105.delta" sparkle:deltaFrom="105" length="3240386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uaWMNhiGHs+JXFsR8s8KAxLW2H+lnkazZsGF1WsG6H1Kp9dQwYRWjM5iIP7dYleWS3KP6QjNSsdWM4TQeqT8Dw=="/>
-                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas178-87.delta" sparkle:deltaFrom="87" length="3413078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="n12kT59pXlEwHzcud01PBvyalSF3GCkG6peXwpgjcE3gpCgNyphKthQwFCtyNtmLY9qX+RaXYZPnewv+wGIABA=="/>
-                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas178-84.delta" sparkle:deltaFrom="84" length="3416446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uPW4sed/s753SSrDDlEoNzot4o24U/kIlshd7/ITuJTfcn5VxXjDIPHl4CWPv1rIieXkOme3npM3tZUq0rnyCA=="/>
             </sparkle:deltas>
         </item>
     </channel>
